@@ -1,0 +1,50 @@
+body{
+    background-image: url(https://s0.rbk.ru/v6_top_pics/media/img/7/96/347141641904967.webp);
+    /* background-image: url(https://cs12.pikabu.ru/post_img/big/2022/01/04/4/1641271262113378909.jpg); */
+}
+.sun{
+    transform: translateX(-200px);
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-position: center;
+    width: 150px;
+    height: 150px;
+    background-color: yellow; 
+    /* background-image: url(https://i.pinimg.com/originals/6e/69/5b/6e695b483964f0b47ef7a672ef2d699d.gif); */
+     border-radius: 50%; */ 
+      box-shadow: 0px 0px 30px 20px yellow;  
+    animation: sunMove 5s infinite linear;
+    
+}
+
+
+
+
+
+
+
+
+@keyframes sunMove{
+ 0%{
+    transform: translateX(0px);
+    margin-top: 240px;
+}
+20%{
+    transform: translateX(100px);
+    margin-top: 190px;
+}
+60%{
+    transform: translateX(250px);
+    margin-top: 80px;
+}
+100%{
+    transform: translateX(1200px);
+
+} */
+ /* from{
+    transform: translateX(-200px);
+ }
+ to{
+    transform: translateX(1200px);
+ } */
+}
